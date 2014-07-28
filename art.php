@@ -12,9 +12,7 @@
 </head>
 
 <body>
-	<?php 
-		include "header.php"
-	?>
+	<?php include 'header.php';?>
 	<div id = "wrapper">
 		<div id = "subtitle">
 			</br>Finished Works</br></br></br>
