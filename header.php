@@ -11,10 +11,9 @@ function generateHeader()
 			
 			<ul>
 	
-				<li> <a href = "projects.php"> Coding </a> </li>
+				<li> <a href = "projects.php"> Projects </a> </li>
 				<li> <a href = "art.php"> Art </a> </li>
 				<li> <a href = "music.php"> Music </a> </li>
-				<li> <a href = "animation.php"> Animation </a> </li>
 				<li> <a href = "origami.php"> Origami </a> </li>
 				<li> <a target="_blank" href = "http://www.inkorrigible.blogspot.com"> Webcomic </a> </li> 
 			</ul>

@@ -25,7 +25,7 @@
 				<tr>
 					<td>
 					  <a target="_blank" href="projects/MutationCalculator.html">
-					  <img src="images/mutationIcon.jpg" alt="Mutation Calculator" width="90" />
+					  <img src="images/mutationIcon.jpg" alt="Mutation Calculator" class="projectThumbnail" width="90" />
 					  </a>
 					</td>
 					<td>
@@ -36,7 +36,7 @@
 				<tr>
 					<td>
 					  <a target="_blank" href="projects/puzzleWrap.html">
-					  <img src="images/puzzleWrapIcon.jpg" alt="Puzzle Wrap" width="90" />
+					  <img src="images/puzzleWrapIcon.jpg" alt="Puzzle Wrap" class="projectThumbnail" width="90" />
 					  </a>
 					</td>
 					<td>
@@ -47,7 +47,7 @@
 				<tr>
 					<td>
 					  <a target="_blank" href="projects/crazyClock.html">
-					  <img src="images/crazyClockIcon.jpg" alt="Color Clock" width="90" />
+					  <img src="images/crazyClockIcon.jpg" alt="Color Clock" class="projectThumbnail" width="90" />
 					  </a>
 					</td>
 					<td>
@@ -58,7 +58,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="projects/angryWords.html">
-						<img src="images/angryWordsIcon.jpg" alt="Klematis" width="90" />
+						<img src="images/angryWordsIcon.jpg" alt="Klematis" class="projectThumbnail" width="90" />
 						</a>
 					</td>
 					<td>
@@ -69,7 +69,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="projects/unis.html">
-						<img src="images/unisIcon.jpg" alt="Unis" width="90" />
+						<img src="images/unisIcon.jpg" alt="Unis" class="projectThumbnail" width="90" />
 						</a>
 					</td>
 					<td>
@@ -84,7 +84,7 @@
 				<tr>
 					<td>
 					  <a target="_blank" href="http://www.youtube.com/watch?v=ClV1W0oCkEI&feature=g-upl">
-					  <img src="images/ovoIcon.jpg" alt="Ovo Animation" width="90" />
+					  <img src="images/ovoIcon.jpg" alt="Ovo Animation" class="projectThumbnail" width="90" />
 					  </a>
 					</td>
 					<td>
@@ -94,7 +94,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="http://www.youtube.com/watch?v=_ggvy1NusJA&feature=g-upl">
-						<img src="images/surgSimIcon.jpg" alt="Surgery Simulator" width="90" />
+						<img src="images/surgSimIcon.jpg" alt="Surgery Simulator" class="projectThumbnail" width="90" />
 						</a>
 					</td>
 					<td>
@@ -104,7 +104,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="http://www.youtube.com/watch?v=ITyCgv7PxQw&feature=g-upl">
-						<img src="images/chefSamIcon.jpg" alt="Chef Sam Animation" width="90" />
+						<img src="images/chefSamIcon.jpg" alt="Chef Sam Animation" class="projectThumbnail" width="90" />
 						</a>
 					</td>
 					<td>
@@ -114,7 +114,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="http://www.youtube.com/watch?v=EKvg1wqgs1w&feature=context-gau">
-						<img src="images/segwayIcon.jpg" alt="Segway Animation" width="90" />
+						<img src="images/segwayIcon.jpg" alt="Segway Animation" class="projectThumbnail" width="90" />
 						</a>
 					</td>
 					<td>
@@ -124,14 +124,17 @@
 				<tr>
 					<td>
 						<a target="_blank" href="http://www.youtube.com/watch?v=HJc1fjUL-ak&feature=channel&list=UL>">
-						<img src="images/flyWhackerIcon.jpg" alt="Fly Whacker Simulation" width="90" />
+						<img src="images/flyWhackerIcon.jpg" alt="Fly Whacker Simulation" class="projectThumbnail" width="90" />
 						</a>
 					</td>
 					<td>
 						<div class="desc"><b>Fly Whacker</b> I used a combination of the Razr Hydra haptic input devices, Maya and Unity to make a fun fly whacking demo. </div>
 					</td>
 				</tr>
-		</div>
+			</table>
+	<?php 
+		include 'footer.php';
+	?>
 	</div>
 </body>
 </html>

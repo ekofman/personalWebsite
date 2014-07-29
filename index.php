@@ -23,15 +23,10 @@
 				I've worked on, some of my artwork and origami, and other tidbits I hope you find 
 				interesting. 
 				</p>
-	</div>
-		<div id = "indexImage">
-			<img src = "images/titleImage.jpg" alt = "guitarist"/>
-		</div>
-	</div>
 	
 	<?php 
 		include 'footer.php';
-		generateFooter();
 	?>
+	</div>
 </body>
 </html>
