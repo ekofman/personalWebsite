@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html PUBtrC "-//W3C//DTD HTML 4.01//EN">
 
 <html>
 
 <head>
-	<meta name="description" content="eric kofman">
+	<meta name="artDescription" content="eric kofman">
 	<meta name="keywords" content="eric kofman, stanford">
 	<link rel="stylesheet" href = "ekofmanstyle.css">
 	<title>
@@ -12,84 +12,111 @@
 </head>
 
 <body>
-	<?php include 'header.php';?>
-	<div id = "wrapper">
+	<?php 
+		include 'header.php';
+		generateHeader();
+	?>
+	
+	<div id = "main">
 		<div id = "subtitle">
-			</br>Finished Works</br></br></br>
+			Paintings
 		</div>
-		<ul class="hoverbox">
-			<li>
-			<a href="#"><img src="img/photo09.jpg" alt="description" /><img src="img/photo09.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Guitarist </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo02.jpg" alt="description" /><img src="img/photo02.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Cliffs of Tantalus </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo03.jpg" alt="description" /><img src="img/photo03.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Grandfather </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo04.jpg" alt="description" /><img src="img/photo04.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Morning Raft </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo05.jpg" alt="description" /><img src="img/photo05.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Contemplation </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo06.jpg" alt="description" /><img src="img/photo06.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Self-Self-Portrait </div>
-			</li> 
-			<li>
-			<a href="#"><img src="img/photo07.jpg" alt="description" /><img src="img/photo07.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Studio #1 </div>
-			</li>
-			<li>
-			<a href="#"><img src="img/photo08.jpg" alt="description" /><img src="img/photo08.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Studio #2 </div> 
-			</li> 
-			<li>
-			<a href="#"><img src="img/photo01.jpg" alt="description" /><img src="img/photo01.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Cousins </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo10.jpg" alt="description" /><img src="img/photo10.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Still Life with Duck </div>
-			</li>
-			<li>
-			<a href="#"><img src="img/photo11.jpg" alt="description" /><img src="img/photo11.jpg" alt="description" class="preview" /></a> 
-			<div class="artdesc"> Chillo&eacute Shipyard </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo12.jpg" alt="description" /><img src="img/photo12.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Eternal Weight </div> 
-			</li>
-						<li>
-			<a href="#"><img src="img/photo13.jpg" alt="description" /><img src="img/photo13.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Scotch Tape </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo14.jpg" alt="description" /><img src="img/photo14.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Cops and Robbers </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo15.jpg" alt="description" /><img src="img/photo15.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Pucon Lake </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo16.jpg" alt="description" /><img src="img/photo16.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Self Portrait </div> 
-			</li>
-			<li>
-			<a href="#"><img src="img/photo17.jpg" alt="description" /><img src="img/photo17.jpg" alt="description" class="preview" /></a>
-			<div class="artdesc"> Negative Spaces </div> 
-			</li>
-		</ul>
-		<div id = "subtitle">
-			</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-		</div>
+		<span id = "previewWindow">
+			<table>
+				<tr>
+				<td>
+				<table>
+				<tr>
+					<td class = "paintingPreview" id = "1">
+						<img src="img/photo1.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "2">
+						<img src="img/photo2.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "3">
+						<img src="img/photo3.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "4">
+						<img src="img/photo4.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "5">
+						<img src="img/photo5.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+				</tr>
+				<!-- row -->
+				<tr>
+				<td class = "paintingPreview" id = "6">
+					<img src="img/photo6.jpg" alt="artDescription" width="60px" height="60px" />
+				</td>
+				<td class = "paintingPreview" id = "7">
+					<img src="img/photo7.jpg" alt="artDescription" width="60px" height="60px" />
+				</td>
+				<td class = "paintingPreview" id = "8">
+					<img src="img/photo8.jpg" alt="artDescription" width="60px" height="60px" />
+				</td>
+				<td class = "paintingPreview" id = "9">
+					<img src="img/photo9.jpg" alt="artDescription" width="60px" height="60px" />
+				</td>
+				<td class = "paintingPreview" id = "10">
+					<img src="img/photo10.jpg" alt="artDescription" width="60px" height="60px" />
+				</td>
+				</tr>
+				
+				<!-- row -->
+				
+				<tr>
+					<td class = "paintingPreview" id = "11">
+						<img src="img/photo11.jpg" alt="artDescription" width="60px" height="60px" /> 
+					</td>
+					<td class = "paintingPreview" id = "12">
+						<img src="img/photo12.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "13">
+						<img src="img/photo13.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "14">
+						<img src="img/photo14.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "15">
+						<img src="img/photo15.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+				</tr>
+				
+				<!-- row -->
+				
+				<tr>
+					<td class = "paintingPreview" id = "16">
+						<img src="img/photo16.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+					<td class = "paintingPreview" id = "17">
+						<img src="img/photo17.jpg" alt="artDescription" width="60px" height="60px" />
+					</td>
+				</tr>
+			</table>
+			</td>
+			<td>
+				<div id = "displayWindow">
+					<img id = "displayImage" src="img/photo6.jpg" height = "350px" />;
+				</div>
+			</td>
+			</tr>
+		</table>
 	</div>
+		<script type="text/javascript">
+			function setupMouseOverOut(painting){
+				var paintingId = painting.id;
+				var displayImage = document.getElementById("displayImage");
+				painting.onmouseover = function() {
+					console.log('<img src="img/photo'+paintingId+'.jpg" height="350px" />');
+					displayImage.src = 'img/photo' + paintingId + '.jpg';
+				};
+			}
+
+			var allPaintings = document.getElementsByClassName("paintingPreview");
+			for (var i = 0; i < allPaintings.length; i++) {
+				var painting = allPaintings[i];
+				setupMouseOverOut(allPaintings[i]);
+			}
+		</script>
 </body>
 </html>

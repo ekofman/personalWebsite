@@ -6,6 +6,24 @@ body{
 	font-family: Sans-Serif;
 }
 
+/* Footer styles */
+#footer{
+	position:absolute;
+    left:50%;
+	margin-left: -25em;
+	width: 100em;
+	font-weight: bold;
+	font-size: 15px;
+	font-style: bold;
+	padding: 20px;
+}
+
+#footer a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Header styles */
 #header{
 	padding-top: 30px;
 	margin-bottom: 100px;
@@ -29,6 +47,7 @@ body{
 }
 
 #header ul{
+	padding-top: 30px;
 	position: absolute;
 	list-style-type: none;
 	padding-left: none;
@@ -39,31 +58,43 @@ body{
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	padding-left: 1px;
 }
 
 #header ul a{
+	border-radius: 15px;
+	border-color: #dddddd;
+	border-style: solid;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
 	color: black;
 	font-family: Arial;
 	text-decoration: none;
-	font-size: 30pt;
+	font-size: 25pt;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #header ul a:hover{
-	background-image: url(images/navbar.gif);
-	color: #222277;
+	background-color: #dddddd;
+	color: black;
 }
 
 #selfPortrait{
 	float: right;
+	padding-right: 50px;
 }
 
+/* Main styles */
 #main{
 	font-size: 20px;
 	font-family: Sans-Serif;
-	background-color: white;
-	padding: 80px;
+	background-color: #eeeeee;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 #indexImage{
@@ -102,25 +133,36 @@ body{
 }
  
 .desc{
+  font-size: 15px;
   position: relative;
-  font-weight:bold;
-  color: white;
+  color: black;
  }
  
  .artdesc{
 	text-align: center;
-	color: #6e6eb9;
+	font-size: 10px;
+	color: black;
 	font-weight: bold;
 }
 
+#displayWindow{
+	height: 350px;
+	width: 700px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #dddddd;
+	float: right;
+}
+
 #subtitle{
-	font-size: 50;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-family: Arial;
-	color: white;
+	color: black;
 	font-weight: bold;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 10px;
 	clear: both;
 }
 

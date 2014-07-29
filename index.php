@@ -12,7 +12,10 @@
 </head>
 
 <body>
-	<?php include 'header.php';?>
+	<?php 
+		include 'header.php';
+		generateHeader();
+	?>
 		
 	<div id = "main">
 				<p>
@@ -25,5 +28,10 @@
 			<img src = "images/titleImage.jpg" alt = "guitarist"/>
 		</div>
 	</div>
+	
+	<?php 
+		include 'footer.php';
+		generateFooter();
+	?>
 </body>
 </html>
