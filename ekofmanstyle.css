@@ -201,6 +201,14 @@ body{
 
 .projectThumbnail{
 	border-radius: 15px;
+	box-shadow: 2px 2px 5px #555555;
+	margin: 10px;
+}
+
+.origamiThumbnail{
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #555555;
+	margin: 10px;
 }
 /* =Hoverbox Code, functionality by Nathan Smith, with stylistic modifications
 ----------------------------------------------------------------------*/
