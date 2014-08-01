@@ -19,9 +19,8 @@
 		
 	<div id = "main">
 				<p>
-				Welcome to my little corner of the internet. Here you'll find links to projects
-				I've worked on, some of my artwork and origami, and other tidbits I hope you find 
-				interesting. 
+				Welcome to my corner of the internet. Here you'll find links to projects
+				I've worked on, some of my artwork, music and origami.
 				</p>
 	
 	<?php 

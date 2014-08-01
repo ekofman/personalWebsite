@@ -18,6 +18,10 @@
 		generateHeader();
 	?>
 	<div id = "main">
+		Playing around with Flash animations and making silly demo games was what first got me into computer programming.
+		Now my two main interests lie in developing web applications and working with biological and clinical data to find cool patterns. Here are several projects I've worked on 
+		over the past few years, some for fun and some for classes.
+		
 		<div id = "subtitle">
 			Android 
 		</div>
@@ -29,7 +33,37 @@
 					  </a>
 					</td>
 					<td>
-						<div class="desc"><b>Attune</b> My senior project Android application. Donwloadable on the Play store. </div>
+						<div class="desc"><b>Attune</b> Sync your phone with your life. My senior project Android application. Donwloadable on the Play store. </div>
+					</td>
+				</tr>
+		</table>
+		<div id = "subtitle">
+			Bioinformatics
+		</div>
+		<table>
+				<tr>
+					<td>
+					  <a target="_blank" href="files/Binding Sites Characterization.pdf">
+					  <img src="images/tfProjectThumbnail.jpg" alt="Bioinformatics" class="projectThumbnail" width="90" />
+					  </a>
+					</td>
+					<td>
+						<div class="desc"><b>CS229 (Machine Learning) Project Report</b> TCF21 Binding Sites Characterization using Latent Dirichlet Allocation. A lot of Python, Bash and Transcription Factors. </div>
+					</td>
+				</tr>
+		</table>
+		<div id = "subtitle">
+			Ruby on Rails
+		</div>
+		<table>
+				<tr>
+					<td>
+					  <a target="_blank" href="http://kickup.herokuapp.com/">
+					  <img src="images/KickupThumbnail.jpg" alt="Kickup" class="projectThumbnail" width="90" />
+					  </a>
+					</td>
+					<td>
+						<div class="desc"><b>Kickup</b> A side project I made with a friend for a Stanford community grant. In startup lingo, "it's kinda like Kickstarter but for pickup sports."</div>
 					</td>
 				</tr>
 		</table>

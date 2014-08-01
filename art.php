@@ -100,6 +100,9 @@
 					<td class = "paintingPreview" id = "19">
 						<img src="img/photo19.jpg" alt="artDescription" class = "artThumbnail" width="70px" height="70px" />
 					</td>
+					<td class = "paintingPreview" id = "20">
+						<img src="img/photo20.jpg" alt="artDescription" class = "artThumbnail" width="70px" height="70px" />
+					</td>
 				</tr>
 			</table>
 			</td>
@@ -234,7 +237,7 @@
 			"Morning Raft", "Old Age", "Self-Portrait Self-Portrait", "Studio 1",
 			"Studio 2", "Guitarist", "Still Life, with Duck.", "Chiloe Shipyard", 
 			"Eternal Weight", "Tape Dispenser", "Cops and Robbers", "Mountain-Top Lake",
-			"Self-Portrait", "Negative Spaces", "Saddle Mountain Man", "The Dish at the Golden Hour"]
+			"Self-Portrait", "Negative Spaces", "Saddle Mountain Man", "The Dish at the Golden Hour", "Sunset"]
 			function setupMouseOverOut(painting){
 				var paintingId = painting.id;
 				var displayImage = document.getElementById("displayImagePainting");

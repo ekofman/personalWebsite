@@ -157,7 +157,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="origami/peacockInstructions.jpg">
-							<img class="origamiThumbnail" src="img/selfPortrait.jpg" alt="Eric Kofman" width="120" />
+							<img class="origamiThumbnail" src="origami/peacockThumbnail.jpg" alt="Peacock" width="120" />
 						</a>
 					</td>
 					<td>
@@ -166,7 +166,7 @@
 				</tr><tr>
 					<td>
 						 <a target="_blank" href="origami/hamsterInstructions.jpg">
-							<img class="origamiThumbnail" src="img/selfPortrait.jpg" alt="Eric" width="120" />
+							<img class="origamiThumbnail" src="origami/hamsterThumbnail.jpg" alt="Hamster" width="120" />
 						</a>
 					</td>
 					<td>
@@ -176,7 +176,7 @@
 				<tr>
 					<td>
 						<a target="_blank" href="origami/dogInstructions.jpg">
-							<img class="origamiThumbnail" src="img/selfPortrait.jpg" alt="Eric" width="120" />
+							<img class="origamiThumbnail" src="origami/dogThumbnail.jpg" alt="Dog" width="120" />
 						</a>
 					</td>
 					<td>
@@ -192,8 +192,10 @@
 					</td>
 				</tr>
 			</table>
+		<?php 
+			include 'footer.php';
+		?>
 		</div>
-
 	</div>
 </body>
 </html>
